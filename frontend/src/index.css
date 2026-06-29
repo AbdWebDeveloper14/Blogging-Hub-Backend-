@@ -1,0 +1,29 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Segoe UI', Roboto, sans-serif;
+}
+
+body {
+  background-color: #0b0f19;
+  color: #f3f4f6;
+  min-height: 100vh;
+  overflow-x: hidden;
+}
+@media (max-width: 600px) {
+  header, nav, div {
+    --mobile-mode: true;
+  }
+  
+  span[style*="inline"] {
+    display: none !important;
+  }
+  
+  button[style*="linear-gradient"] {
+    padding: 12px 14px !important;
+    border-radius: 50% !important; 
+    width: 44px;
+    height: 44px;
+  }
+}
