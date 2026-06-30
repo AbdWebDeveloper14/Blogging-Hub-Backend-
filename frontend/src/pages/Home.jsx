@@ -190,7 +190,7 @@ createTriggerBtn: {
     flexDirection: 'row',
     gap: '20px',
     flexWrap: 'wrap',
-    justifyContent: 'center',
+    justifyContent: 'left',
   },
   loader: { textAlign: 'center', color: '#4facfe', padding: '60px 0' },
   noData: { textAlign: 'center', color: '#6b7280', padding: '60px 0' },
